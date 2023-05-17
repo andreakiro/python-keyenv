@@ -19,9 +19,24 @@ $ keyenv update -n {service name} -sk {new secret key}
 $ keyenv list # this will list all service names
 ```
 
+You can also provide path to a `json` file to store/update commands
+```bash
+$ keyenv store -p {path/to/json}
+$ keyenv update -p {path/to/json}
+```
+
+You could also perform same actions from a Python script if needed
+```python
+import keyenv as kv
+kv.store(service="secret")
+kv.update(service="secret")
+kv.store("path/to/json/keys")
+print(kv.list())
+```
+
 ### Load your keys across your Python projects
 
-You can then access all of your keys with `keyenv.get(service)` in your Python code.
+You can then access all of your keys with `keyenv.get(service)` in your Python code 🥳
 
 ```python
 import langchain.llms as llms
@@ -36,4 +51,4 @@ llm_chain.run()
 
 ## Installation
 
-🚨 To install `python-keyenv`, use pip: ```pip install python-keyenv```.
+🚨 To install `keyenv`, use pip: ```pip install keyenv```.
