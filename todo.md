@@ -1,0 +1,6 @@
+- [] write unit test
+- [] workflows for test 
+- [] workflows for publish
+- [] add pre-commit hooks
+- [] rename pypi to `python-keyenv`
+- [] add cli features 
