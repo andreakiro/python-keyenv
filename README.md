@@ -2,7 +2,7 @@
 
 <!-- ![Tests](https://github.com/andreakiro/python-keyenv/actions/workflows/tests.yml/badge.svg) -->
 
-Go-to solution for effortless secret keys management. This lib/tool allows you to securley store (once for all!) and swiftly load secret key-value pairs from a local cache. Now, accessing your favorite API keys across all your projects is as simple as saying hello.
+Go-to solution for effortless secret keys management. This lib/tool allows you to securley store (once for all!) and swiftly load secret key-value pairs from a local cache using dotenv file logic. Now, accessing your favorite API keys across all your projects is as simple as saying hello.
 
 ## Usage
 
