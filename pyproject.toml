@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "keyenv"
-packages = [{include = "src/keyenv"}]
+packages = [{include = "keyenv", from = "src"}]
 
 version = "0.1.0"
 license = "MIT"
