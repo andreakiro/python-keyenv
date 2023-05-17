@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "keyenv"
+packages = [{include = "src/keyenv"}]
+
+version = "0.1.0"
+license = "MIT"
+readme = "README.md"
+
+authors = ["Andrea Pinto <andreakiro.pinto@gmail.com>"]
+description = "Store and load secret key-value pairs from a local cache"
+keywords=['api', 'keys', 'env', 'cache', 'configurations', 'python']
+repository = "https://github.com/andreakiro/python-keyenv"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-dotenv = "1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
